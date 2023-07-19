@@ -1,18 +1,17 @@
-import React,{Component} from React;
-
+import React,{Component} from "react";
+import Header from "./Header";
 class App extends Component {
   render(){
     return (
-    <div  >
-      {/* <div className="header">Phone Directory</div>
+    <div>
+       <Header/>
       
       <button> Add</button>
       <div>
-        <span>Name</span></br>
+        <span>Name</span><br/>
       <span>Phone</span>
-      </div>  */}
-      <label htmlFor="name"></label>
-      <input id="name" type="text" placeholder="type here" defaultvalue="shristi"></input>
+      </div> 
+      
     </div>
   );
   }
